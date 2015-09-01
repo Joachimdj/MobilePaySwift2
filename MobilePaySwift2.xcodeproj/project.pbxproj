@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		889BA00B1B95568F00EBE4C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889BA00A1B95568F00EBE4C1 /* AppDelegate.swift */; };
+		889BA00D1B95568F00EBE4C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889BA00C1B95568F00EBE4C1 /* ViewController.swift */; };
+		889BA0101B95568F00EBE4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889BA00E1B95568F00EBE4C1 /* Main.storyboard */; };
+		889BA0121B95568F00EBE4C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889BA0111B95568F00EBE4C1 /* Images.xcassets */; };
+		889BA0151B95568F00EBE4C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889BA0131B95568F00EBE4C1 /* LaunchScreen.xib */; };
+		889BA0211B95568F00EBE4C1 /* MobilePaySwift2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889BA0201B95568F00EBE4C1 /* MobilePaySwift2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		889BA01B1B95568F00EBE4C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 889B9FFD1B95568F00EBE4C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889BA0041B95568F00EBE4C1;
+			remoteInfo = MobilePaySwift2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		889BA0051B95568F00EBE4C1 /* MobilePaySwift2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilePaySwift2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		889BA0091B95568F00EBE4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889BA00A1B95568F00EBE4C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		889BA00C1B95568F00EBE4C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		889BA00F1B95568F00EBE4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		889BA0111B95568F00EBE4C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		889BA0141B95568F00EBE4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		889BA01A1B95568F00EBE4C1 /* MobilePaySwift2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobilePaySwift2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		889BA01F1B95568F00EBE4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889BA0201B95568F00EBE4C1 /* MobilePaySwift2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePaySwift2Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		889BA0021B95568F00EBE4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889BA0171B95568F00EBE4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		889B9FFC1B95568F00EBE4C1 = {
+			isa = PBXGroup;
+			children = (
+				889BA0071B95568F00EBE4C1 /* MobilePaySwift2 */,
+				889BA01D1B95568F00EBE4C1 /* MobilePaySwift2Tests */,
+				889BA0061B95568F00EBE4C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		889BA0061B95568F00EBE4C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				889BA0051B95568F00EBE4C1 /* MobilePaySwift2.app */,
+				889BA01A1B95568F00EBE4C1 /* MobilePaySwift2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		889BA0071B95568F00EBE4C1 /* MobilePaySwift2 */ = {
+			isa = PBXGroup;
+			children = (
+				889BA00A1B95568F00EBE4C1 /* AppDelegate.swift */,
+				889BA00C1B95568F00EBE4C1 /* ViewController.swift */,
+				889BA00E1B95568F00EBE4C1 /* Main.storyboard */,
+				889BA0111B95568F00EBE4C1 /* Images.xcassets */,
+				889BA0131B95568F00EBE4C1 /* LaunchScreen.xib */,
+				889BA0081B95568F00EBE4C1 /* Supporting Files */,
+			);
+			path = MobilePaySwift2;
+			sourceTree = "<group>";
+		};
+		889BA0081B95568F00EBE4C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				889BA0091B95568F00EBE4C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		889BA01D1B95568F00EBE4C1 /* MobilePaySwift2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				889BA0201B95568F00EBE4C1 /* MobilePaySwift2Tests.swift */,
+				889BA01E1B95568F00EBE4C1 /* Supporting Files */,
+			);
+			path = MobilePaySwift2Tests;
+			sourceTree = "<group>";
+		};
+		889BA01E1B95568F00EBE4C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				889BA01F1B95568F00EBE4C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		889BA0041B95568F00EBE4C1 /* MobilePaySwift2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889BA0241B95568F00EBE4C1 /* Build configuration list for PBXNativeTarget "MobilePaySwift2" */;
+			buildPhases = (
+				889BA0011B95568F00EBE4C1 /* Sources */,
+				889BA0021B95568F00EBE4C1 /* Frameworks */,
+				889BA0031B95568F00EBE4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobilePaySwift2;
+			productName = MobilePaySwift2;
+			productReference = 889BA0051B95568F00EBE4C1 /* MobilePaySwift2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		889BA0191B95568F00EBE4C1 /* MobilePaySwift2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889BA0271B95568F00EBE4C1 /* Build configuration list for PBXNativeTarget "MobilePaySwift2Tests" */;
+			buildPhases = (
+				889BA0161B95568F00EBE4C1 /* Sources */,
+				889BA0171B95568F00EBE4C1 /* Frameworks */,
+				889BA0181B95568F00EBE4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				889BA01C1B95568F00EBE4C1 /* PBXTargetDependency */,
+			);
+			name = MobilePaySwift2Tests;
+			productName = MobilePaySwift2Tests;
+			productReference = 889BA01A1B95568F00EBE4C1 /* MobilePaySwift2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		889B9FFD1B95568F00EBE4C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Joachim Dittman";
+				TargetAttributes = {
+					889BA0041B95568F00EBE4C1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					889BA0191B95568F00EBE4C1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 889BA0041B95568F00EBE4C1;
+					};
+				};
+			};
+			buildConfigurationList = 889BA0001B95568F00EBE4C1 /* Build configuration list for PBXProject "MobilePaySwift2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 889B9FFC1B95568F00EBE4C1;
+			productRefGroup = 889BA0061B95568F00EBE4C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				889BA0041B95568F00EBE4C1 /* MobilePaySwift2 */,
+				889BA0191B95568F00EBE4C1 /* MobilePaySwift2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		889BA0031B95568F00EBE4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889BA0101B95568F00EBE4C1 /* Main.storyboard in Resources */,
+				889BA0151B95568F00EBE4C1 /* LaunchScreen.xib in Resources */,
+				889BA0121B95568F00EBE4C1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889BA0181B95568F00EBE4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		889BA0011B95568F00EBE4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889BA00D1B95568F00EBE4C1 /* ViewController.swift in Sources */,
+				889BA00B1B95568F00EBE4C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889BA0161B95568F00EBE4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889BA0211B95568F00EBE4C1 /* MobilePaySwift2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		889BA01C1B95568F00EBE4C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 889BA0041B95568F00EBE4C1 /* MobilePaySwift2 */;
+			targetProxy = 889BA01B1B95568F00EBE4C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		889BA00E1B95568F00EBE4C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889BA00F1B95568F00EBE4C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		889BA0131B95568F00EBE4C1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889BA0141B95568F00EBE4C1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		889BA0221B95568F00EBE4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		889BA0231B95568F00EBE4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		889BA0251B95568F00EBE4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MobilePaySwift2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		889BA0261B95568F00EBE4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MobilePaySwift2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		889BA0281B95568F00EBE4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MobilePaySwift2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobilePaySwift2.app/MobilePaySwift2";
+			};
+			name = Debug;
+		};
+		889BA0291B95568F00EBE4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MobilePaySwift2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobilePaySwift2.app/MobilePaySwift2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		889BA0001B95568F00EBE4C1 /* Build configuration list for PBXProject "MobilePaySwift2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889BA0221B95568F00EBE4C1 /* Debug */,
+				889BA0231B95568F00EBE4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889BA0241B95568F00EBE4C1 /* Build configuration list for PBXNativeTarget "MobilePaySwift2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889BA0251B95568F00EBE4C1 /* Debug */,
+				889BA0261B95568F00EBE4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		889BA0271B95568F00EBE4C1 /* Build configuration list for PBXNativeTarget "MobilePaySwift2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889BA0281B95568F00EBE4C1 /* Debug */,
+				889BA0291B95568F00EBE4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 889B9FFD1B95568F00EBE4C1 /* Project object */;
+}
