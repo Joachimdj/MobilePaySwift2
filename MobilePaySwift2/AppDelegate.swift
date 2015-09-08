@@ -15,13 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-       MobilePayManager.sharedInstance().setupWithMerchantId("APPDK0000000000", merchantUrlScheme: "fruitshop")
+        MobilePayManager.sharedInstance().setupWithMerchantId("APPDK0000000000", merchantUrlScheme: "fruitshop")
         println("Openapp")
         return true
     }
-    func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> Bool
-    {
-        println("OpenURL")
+   
+    func application(application: UIApplication, handleOpenURL url: NSURL) -> Bool {
+        println("HANDLEOPENURL")
         buyer().OpenUrl(url);
         return true
         
