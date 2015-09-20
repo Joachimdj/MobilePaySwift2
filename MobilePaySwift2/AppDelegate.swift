@@ -19,17 +19,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("Openapp")
         return true
     }
- 
+  
     
-    Use this function if you are using iOS9, handleOpenUrl has been deprecated 
+   // Use this function if you are using iOS9, handleOpenUrl has been deprecated
     func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> Bool
     {
-    print ("OpenURL")
+    print("OpenURL")
     buyer().OpenUrl(url);
     return true
     
     }
-    /*
+      /*
     func application(application: UIApplication, handleOpenURL url: NSURL) -> Bool {
         print("HANDLEOPENURL")
         buyer().OpenUrl(url);
