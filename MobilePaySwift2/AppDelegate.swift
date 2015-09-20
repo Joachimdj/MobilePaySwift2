@@ -16,27 +16,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         MobilePayManager.sharedInstance().setupWithMerchantId("APPDK0000000000", merchantUrlScheme: "fruitshop")
-        println("Openapp")
+        print("Openapp")
         return true
     }
-    /*
+ 
     
     Use this function if you are using iOS9, handleOpenUrl has been deprecated 
     func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> Bool
     {
-    println("OpenURL")
+    print ("OpenURL")
     buyer().OpenUrl(url);
     return true
     
-    }*/
-    
+    }
+    /*
     func application(application: UIApplication, handleOpenURL url: NSURL) -> Bool {
-        println("HANDLEOPENURL")
+        print("HANDLEOPENURL")
         buyer().OpenUrl(url);
         return true
         
     }
-    
+    */
 
     
     func applicationWillResignActive(application: UIApplication) {

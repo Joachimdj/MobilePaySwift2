@@ -3,5 +3,4 @@
 //
 
 #import "MobilePayManager.h"
-#import "buyer.h"
-#import "ViewHelper.h"
+#import "buyer.h" 

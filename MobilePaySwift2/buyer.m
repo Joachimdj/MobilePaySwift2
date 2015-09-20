@@ -44,8 +44,9 @@
  NSLog(@"Buy");
     NSString *receiptMessage = @"Tak for dit køb, nyd din frugt!";
     NSString *orderId = @"123456";
+    double price = 20.0;
     if ((receiptMessage.length > 0) && (orderId.length > 0)) {
-        [[MobilePayManager sharedInstance] beginMobilePaymentWithOrderId:orderId productPrice:20.0 receiptMessage:receiptMessage error:^(NSError *error) {
+        [[MobilePayManager sharedInstance] beginMobilePaymentWithOrderId:orderId productPrice:price  receiptMessage:receiptMessage error:^(NSError *error) {
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:error.localizedDescription
                                                             message:[NSString stringWithFormat:@"reason: %@, suggestion: %@",error.localizedFailureReason, error.localizedRecoverySuggestion]
                                                            delegate:self

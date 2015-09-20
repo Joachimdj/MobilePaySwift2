@@ -18,7 +18,6 @@
 		889BA0331B95571100EBE4C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889BA0321B95571100EBE4C1 /* UIKit.framework */; };
 		889BA0351B95571700EBE4C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889BA0341B95571700EBE4C1 /* Foundation.framework */; };
 		889BA03A1B9559E000EBE4C1 /* buyer.m in Sources */ = {isa = PBXBuildFile; fileRef = 889BA0391B9559E000EBE4C1 /* buyer.m */; };
-		889BA03E1B955DED00EBE4C1 /* ViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 889BA03D1B955DED00EBE4C1 /* ViewHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +49,6 @@
 		889BA0341B95571700EBE4C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		889BA0391B9559E000EBE4C1 /* buyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = buyer.m; sourceTree = "<group>"; };
 		889BA03B1B955AE200EBE4C1 /* buyer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buyer.h; sourceTree = "<group>"; };
-		889BA03C1B955DED00EBE4C1 /* ViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewHelper.h; path = "../../../../Downloads/MobilePay-AppSwitch-SDK-master-5/src/examples/MobilePayFruitshop-iPhone/MobilePayFruitshop/ViewHelper.h"; sourceTree = "<group>"; };
-		889BA03D1B955DED00EBE4C1 /* ViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewHelper.m; path = "../../../../Downloads/MobilePay-AppSwitch-SDK-master-5/src/examples/MobilePayFruitshop-iPhone/MobilePayFruitshop/ViewHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				889BA02D1B9556BE00EBE4C1 /* libMobilePayManager1.6.0.a */,
-				889BA03C1B955DED00EBE4C1 /* ViewHelper.h */,
-				889BA03D1B955DED00EBE4C1 /* ViewHelper.m */,
 				889BA03B1B955AE200EBE4C1 /* buyer.h */,
 				889BA0391B9559E000EBE4C1 /* buyer.m */,
 				889BA02E1B9556BE00EBE4C1 /* MobilePayManager.h */,
@@ -186,6 +181,8 @@
 		889B9FFD1B95568F00EBE4C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Joachim Dittman";
 				TargetAttributes = {
@@ -244,7 +241,6 @@
 			files = (
 				889BA03A1B9559E000EBE4C1 /* buyer.m in Sources */,
 				889BA00D1B95568F00EBE4C1 /* ViewController.swift in Sources */,
-				889BA03E1B955DED00EBE4C1 /* ViewHelper.m in Sources */,
 				889BA00B1B95568F00EBE4C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +452,7 @@
 				889BA0261B95568F00EBE4C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		889BA0271B95568F00EBE4C1 /* Build configuration list for PBXNativeTarget "MobilePaySwift2Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +461,7 @@
 				889BA0291B95568F00EBE4C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
